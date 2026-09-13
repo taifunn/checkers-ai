@@ -1,0 +1,16 @@
+build/
+cmake-build-*/
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+*.user
+*.user.*
+.qtc_clangd/
+
+.DS_Store
+
+*.app
+*.dmg
