@@ -16,12 +16,11 @@ enum class Player : uint8_t {
 };
 
 struct Move {
-    uint8_t from;
-    uint8_t to;
-
+    uint64_t path = 0;
     uint32_t captured = 0;
 
-    uint64_t path = 0;
+    uint8_t from;
+    uint8_t to;
     uint8_t path_count = 0;
 
     Move(int p)

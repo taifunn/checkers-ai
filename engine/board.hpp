@@ -7,13 +7,13 @@
 #include <vector>
 
 struct Undo {
+    uint64_t old_hash;
     uint32_t w_pawns;
     uint32_t b_pawns;
     uint32_t w_queens;
     uint32_t b_queens;
 
     Player old_turn;
-    uint64_t old_hash;
 };
 
 class Board {
