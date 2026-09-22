@@ -21,9 +21,9 @@ The main focus of the project is the game engine: efficient board representation
 
 ```bash
 
-git clone <repository-url>
+git clone <https://github.com/taifunn/checkers-ai>
 
-cd checkers
+cd checkers_ai
 
   
 
@@ -41,7 +41,7 @@ Run the application:
 
 ```bash
 
-./build/checkers
+./build/checkers_ai
 
 ```
 
